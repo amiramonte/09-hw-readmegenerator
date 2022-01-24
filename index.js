@@ -7,13 +7,52 @@ const fs = require("fs");
 inquirer.prompt ([
     {
         type: 'input',
+        message: 'What is the title of your project?',
+        name: 'projectTitle',
+    },
+    {
+        type: 'input',
         message: 'Who is your daddy and what does he do?',
         name: 'userName',
-    }
+    },
+    {
+        type: 'input',
+        message: 'Who is your daddy and what does he do?',
+        name: 'userName',
+    },
+    {
+        type: 'input',
+        message: 'Who is your daddy and what does he do?',
+        name: 'userName',
+    },
+    {
+        type: 'input',
+        message: 'Who is your daddy and what does he do?',
+        name: 'userName',
+    },
+    {
+        type: 'input',
+        message: 'Who is your daddy and what does he do?',
+        name: 'userName',
+    },
+    {
+        type: 'input',
+        message: 'Who is your daddy and what does he do?',
+        name: 'userName',
+    },
+    {
+        type: 'input',
+        message: 'Who is your daddy and what does he do?',
+        name: 'userName',
+    },
 ])
 
 .then ((answers) => {
     console.log(answers)
+
+
+
+
 })
 
 
