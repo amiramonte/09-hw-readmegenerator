@@ -12,38 +12,43 @@ inquirer.prompt ([
     },
     {
         type: 'input',
-        message: 'Who is your daddy and what does he do?',
-        name: 'userName',
+        message: 'Please write a description of your project:',
+        name: 'projectDescription',
     },
     {
         type: 'input',
-        message: 'Who is your daddy and what does he do?',
-        name: 'userName',
+        message: 'How does someone install your project?',
+        name: 'projectInstall',
     },
     {
         type: 'input',
-        message: 'Who is your daddy and what does he do?',
-        name: 'userName',
+        message: 'How does someone use your project?',
+        name: 'projectUsage',
     },
     {
         type: 'input',
-        message: 'Who is your daddy and what does he do?',
-        name: 'userName',
+        message: 'Please select the appropriate license for your project',
+        name: 'projectLicense',
     },
     {
         type: 'input',
-        message: 'Who is your daddy and what does he do?',
-        name: 'userName',
+        message: 'How can someone contribute to your project?',
+        name: 'projectContribute',
     },
     {
         type: 'input',
-        message: 'Who is your daddy and what does he do?',
-        name: 'userName',
+        message: 'How do you test your project?',
+        name: 'projectTest',
     },
     {
         type: 'input',
-        message: 'Who is your daddy and what does he do?',
-        name: 'userName',
+        message: 'What is your email address?',
+        name: 'userEmail',
+    },
+    {
+        type: 'input',
+        message: 'What is your Github user name?',
+        name: 'githubUserName',
     },
 ])
 
