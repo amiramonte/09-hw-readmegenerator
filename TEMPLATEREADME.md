@@ -1,4 +1,4 @@
-# Project Title
+# ${answers.projectTitle}
 ​
 
 ---
@@ -20,7 +20,7 @@
 
 ## Description
 ​
-
+${answers.projectDescription}
 ​
 
 ---
@@ -28,35 +28,37 @@
 ​
 ## Installation
 
+${answers.projectInstall}
 
  ---
 ​
 ​
 ## Usage
-
 ​
+${answers.projectUsage}
 
 ---
 
 ## License
 ​
-
+${answers.projectLicense}
 
 ---
 ​
 ## Contributing
 ​
+${answers.projectContribute}
 ​
 
 ---
 
 ## Questions
 
+Contact me at: ${answers.userEmail}
 
 ---
 ## Author
 
-- Alex Miramontes
-[Github](https://www.github.com/amiramonte)
+[Github](https://www.github.com/${answers.githubUserName})
 
 ---
