@@ -64,6 +64,7 @@ const questions = [
 async function init() {
     const response = await inquirer.prompt(questions);
     writeToFile(`${response.projectTitle}.md`, generateMarkdown(response))
+    console.log(`${response.projectTitle}.md created!`)
 }
 
 
