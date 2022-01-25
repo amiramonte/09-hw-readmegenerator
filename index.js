@@ -76,8 +76,3 @@ function writeToFile(fileName, data) {
 
 // Function call to initialize
 init();
-
-
-
-// update readme with screencastify recording demonstrating functionality
-// film and upload screencastify recording and github link
