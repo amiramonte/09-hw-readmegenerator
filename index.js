@@ -58,26 +58,21 @@ const questions = [
 
 async function init() {
     const response = await inquirer.prompt(questions);
-    writeToFile(`README2.md`, generateMarkdown(response))
+    writeToFile(`${response.projectTitle}.md`, generateMarkdown(response))
 }
 
 
-
-
-
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
     return fs.writeFileSync(path.join(__dirname,fileName), data)
 }
 
 
-// Function call to initialize app
+// Function call to initialize
 init();
 
 
 
-// git push
-// clean up generateMarkdown.js file
 // update writeToFile function so that each time it is run, it creates a new .md file based on projectTitle
 // hardcode install & usage explanations into README template
 // look at Licenses to list as options and add to question
