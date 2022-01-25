@@ -1,10 +1,12 @@
-// TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 
 const fs = require("fs");
 
+const generateMarkdown = require ("./utils/generateMarkdown")
 
-inquirer.prompt ([
+const path = require('path');
+
+const questions = [
     {
         type: 'input',
         message: 'What is the title of your project?',
@@ -26,7 +28,8 @@ inquirer.prompt ([
         name: 'projectUsage',
     },
     {
-        type: 'input',
+        type: 'list',
+        choices: ['MIT', 'FACEBOOK', 'AMAZON'],
         message: 'Please select the appropriate license for your project',
         name: 'projectLicense',
     },
@@ -50,45 +53,38 @@ inquirer.prompt ([
         message: 'What is your Github user name?',
         name: 'githubUserName',
     },
-])
-
-.then ((answers) => {
-    console.log(answers)
+]
 
 
-
-
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+async function init() {
+    const response = await inquirer.prompt(questions);
+    writeToFile(`README2.md`, generateMarkdown(response))
+}
 
 
 
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(__dirname,fileName), data)
+}
 
-// TODO: Create a function to initialize app
-function init() {}
 
 // Function call to initialize app
 init();
+
+
+
+// git push
+// clean up generateMarkdown.js file
+// update writeToFile function so that each time it is run, it creates a new .md file based on projectTitle
+// hardcode install & usage explanations into README template
+// look at Licenses to list as options and add to question
+// change License color to green
+// delete unneccessary files on the readme generator
+// update readme for this homework
+// update readme with screencastify recording demonstrating functionality
+// film and upload screencastify recording and github link
+// 
+// 

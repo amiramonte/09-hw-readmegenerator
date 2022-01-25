@@ -60,5 +60,3 @@ Contact me at: ${answers.userEmail}
 ## Author
 
 [Github](https://www.github.com/${answers.githubUserName})
-
----
