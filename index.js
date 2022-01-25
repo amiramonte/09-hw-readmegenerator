@@ -29,7 +29,7 @@ const questions = [
     },
     {
         type: 'list',
-        choices: ['MIT', 'Apache License 2.0', 'Boost Software License 1.0', 'Microsoft Public License', 'Mozilla Public License 2.0', 'Open Software License 3.0'],
+        choices: ['MIT', 'Apache', 'Boost', 'Microsoft', 'Mozilla', 'Open'],
         message: 'Please select the appropriate license for your project',
         name: 'projectLicense',
     },
@@ -79,6 +79,5 @@ init();
 
 
 
-// update readme for this homework
 // update readme with screencastify recording demonstrating functionality
 // film and upload screencastify recording and github link
