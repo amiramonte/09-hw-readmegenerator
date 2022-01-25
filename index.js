@@ -29,7 +29,7 @@ const questions = [
     },
     {
         type: 'list',
-        choices: ['MIT', 'FACEBOOK', 'AMAZON'],
+        choices: ['MIT', 'Apache License 2.0', 'Boost Software License 1.0', 'Microsoft Public License', 'Mozilla Public License 2.0', 'Open Software License 3.0'],
         message: 'Please select the appropriate license for your project',
         name: 'projectLicense',
     },
@@ -55,7 +55,7 @@ const questions = [
     },
 ]
 
-
+// Function to call inquirer.prompt and pass arguments to writeToFile function
 async function init() {
     const response = await inquirer.prompt(questions);
     writeToFile(`${response.projectTitle}.md`, generateMarkdown(response))
@@ -73,10 +73,8 @@ init();
 
 
 
-// update writeToFile function so that each time it is run, it creates a new .md file based on projectTitle
 // hardcode install & usage explanations into README template
 // look at Licenses to list as options and add to question
-// change License color to green
 // delete unneccessary files on the readme generator
 // update readme for this homework
 // update readme with screencastify recording demonstrating functionality

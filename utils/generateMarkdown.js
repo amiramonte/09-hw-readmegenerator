@@ -1,13 +1,13 @@
 // Function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
-  return `![License](https://img.shields.io/badge/License-${license}-blue.svg)`
+  return `![License](https://img.shields.io/badge/License-${license}-green.svg)`
 }
 
 
 // Function to generate markdown for README
 function generateMarkdown(answers) {
   return `# ${answers.projectTitle}
-  
+
   
   ## Table of Contents
 
@@ -40,7 +40,6 @@ function generateMarkdown(answers) {
   ---
   
   ## License
-  ${answers.projectLicense}
 
   ${renderLicenseBadge(answers.projectLicense)}
   
