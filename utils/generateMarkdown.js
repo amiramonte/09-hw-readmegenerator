@@ -56,6 +56,7 @@ function generateMarkdown(answers) {
   ---
   ## Author
   
+  ${answers.userName}
   [Github](https://www.github.com/${answers.githubUserName})
   
   `;

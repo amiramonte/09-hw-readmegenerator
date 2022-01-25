@@ -35,7 +35,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'How can someone contribute to your project?',
+        message: 'Do you want someone to contribute to your project and if so, how can someone contribute to your project?',
         name: 'projectContribute',
     },
     {
@@ -47,6 +47,11 @@ const questions = [
         type: 'input',
         message: 'What is your email address?',
         name: 'userEmail',
+    },
+    {
+        type: 'input',
+        message: 'What is your name?',
+        name: 'userName',
     },
     {
         type: 'input',
@@ -73,11 +78,6 @@ init();
 
 
 
-// hardcode install & usage explanations into README template
-// look at Licenses to list as options and add to question
-// delete unneccessary files on the readme generator
 // update readme for this homework
 // update readme with screencastify recording demonstrating functionality
 // film and upload screencastify recording and github link
-// 
-// 
