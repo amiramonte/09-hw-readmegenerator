@@ -37,7 +37,7 @@ Once everything is installed, open up the terminal or command line interface. St
 
   ## Functionality
 
-  - [Demonstration Video of README Generator]()
+  ![Demonstration Video of README Generator](./assets/images/functionality_demonstration_readme_generator.gif)
 
   
 ## Credits
