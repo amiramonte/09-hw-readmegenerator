@@ -41,7 +41,12 @@ All of these skills were used to create a README generator populated through the
 
 ## Installation
 
-
+1. Clone the repository from Github down to your local machine
+2. Open the repository in your preferred source code editor
+3. Navigate to your command line interface at the root level and enter `npm i` to install all dependencies
+4. Once all dependencies have installed, input `node index.js` into your command line interface at the root level
+5. You will be prompted to answer several questions in the command line interface
+6. Once all questions have been answered, a README with the information you entered will be created and put into your file directory
 
 ---
 
