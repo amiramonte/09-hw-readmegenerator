@@ -4,11 +4,11 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Functionality](#functionality)
+- [Deployed Application](#deployed-application)
+- [Technologies](#technologies)
+- [Installation](#installation)
 - [Credits](#credits)
-
 
 ---
 
@@ -24,6 +24,14 @@ All of these skills were used to create a README generator populated through the
 
 ---
 
+## Functionality
+
+![Demonstration Video of README Generator](./assets/images/functionality_demonstration_readme_generator.gif)
+
+[Video Demonstration of README Generator Functionality](./assets/images/video_demonstrating_functionality_readme_generator.mp4)
+
+---
+
 ## Installation
 
 An individual will need to download node.js and clone the repository down to their local machine. Once downloaded, an individual will need to download npm inquirer by utilizing "npm i" in their terminal or command line interface. Once these steps are completed, they will be able to interact with the program.
@@ -36,16 +44,8 @@ Once everything is installed, open up the terminal or command line interface. St
 
 ---
 
-## Functionality
-
-![Demonstration Video of README Generator](./assets/images/functionality_demonstration_readme_generator.gif)
-
-[Video Demonstration of README Generator Functionality](./assets/images/video_demonstrating_functionality_readme_generator.mp4)
-
-
 ## Credits
 
 #### Alex Miramontes - Jr. Web Developer
 
 [Github](https://www.github.com/amiramonte)
-
