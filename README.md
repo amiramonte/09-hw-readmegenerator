@@ -1,4 +1,4 @@
-# 09-HW-README Generator using Node.js
+# README Generator using Node.js
 
 
 ## Table of Contents
@@ -15,10 +15,10 @@
 ## Description
 
 This project build was designed to assist in learning and implementing the following:
- - Node.js
- - npm Inquirer
- - Javascript
- - Import/Export functionality in Javascript
+- Node.js
+- npm Inquirer
+- Javascript
+- Import/Export functionality in Javascript
 
 All of these skills were used to create a README generator populated through the terminal or command line interface.
 
