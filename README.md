@@ -33,8 +33,14 @@ All of these skills were used to create a README generator populated through the
 
 ## Technologies
 
+- [JavaScript](https://www.javascript.com/)
+- [Node.js](https://nodejs.org/)
+- [Inquirer](https://www.npmjs.com/package/inquirer)
 
 ---
+
+## Installation
+
 
 
 ---
