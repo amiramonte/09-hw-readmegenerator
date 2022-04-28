@@ -13,13 +13,7 @@
 
 ## Description
 
-This project build was designed to assist in learning and implementing the following:
-- Node.js
-- npm Inquirer
-- Javascript
-- Import/Export functionality in Javascript
-
-All of these skills were used to create a README generator populated through the terminal or command line interface.
+This application is a README generator. The README is created through the use of Node.js and the terminal or command line interface. The information that is entered into the command line interface is the information that will populate in the README that is generated and commited to the file directory. 
 
 ---
 
